@@ -1,5 +1,8 @@
 # BriefForge
 
+<img width="1512" height="825" alt="Screenshot 2026-11-03 at 9 47 20 PM" src="https://github.com/user-attachments/assets/4c2e0028-0672-4bed-9bbc-339a46ee2740" />
+
+
 **Give it a topic. Get a structured research brief — planned, drafted, and edited by a multi-agent graph.**
 
 BriefForge runs four roles in sequence: a planner breaks the topic into questions, a researcher answers each one, a writer assembles a markdown brief, and an editor either approves it or sends it back with concrete gaps. The loop is bounded, so it always terminates.
