@@ -79,6 +79,18 @@ curl -X POST http://127.0.0.1:8000/brief \
 }
 ```
 
+### Web UI
+
+```bash
+# terminal 1
+uvicorn app.main:app --reload --port 8002
+
+# terminal 2
+streamlit run streamlit_app.py
+```
+
+The UI opens at `http://localhost:8501` with a topic form and tabs for the brief, the research plan, and the editor's notes. Override the backend with `BRIEFFORGE_API_URL`.
+
 ### Tests
 
 ```bash

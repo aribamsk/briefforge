@@ -4,3 +4,4 @@ langgraph>=0.2
 langchain-openai>=0.3
 pytest>=8.3
 httpx>=0.28
+streamlit>=1.40
